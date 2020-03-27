@@ -30,13 +30,31 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.forEach doesn't create a new array where .map does
+
 2. What is the difference between a function and a method?
+
+a function is the entire 'thing' that holds all values and can be called on by name
+where a method performs a specific task inside the function.
 
 3. What is closure?
 
+A closure is an enclosed function that references code outside of its scope.
+
 4. Describe the four rules of the 'this' keyword.
 
+  1.Implicit Binding - This is where you can have a function inside of an object
+  and you when the function is invoked, you look to the left to see what object is
+  getting invoked.
+  2.Explicit Binding - This is where you can use call, apply and bind and reference
+  a function with the .this from the global scope.
+  3.New Binding - This is when you build a function, and can reference that function with
+  a key work of new to replace that functions parameters.
+  4.Window Binding - This is when the function defaults to the window mode.
+
 5. Why do we need super() in an extended class?
+
+the super in the extended class brings forward all the methods that the parent has.
 
 ## Project Set up
 
@@ -65,11 +83,11 @@ Your finished project must include all of the following requirements:
 **Pro tip for this challenge: If something seems like it isn't working locally, copy and paste your code up to codepen and take another look at the console.**
 
 ## Task 1: Objects and Arrays
-Test your knowledge of objects and arrays. 
+Test your knowledge of objects and arrays.
 * [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
-This challenge takes a look at callbacks and closures as well as scope. 
+This challenge takes a look at callbacks and closures as well as scope.
 * [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
